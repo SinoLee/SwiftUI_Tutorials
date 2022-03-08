@@ -7,14 +7,23 @@
 
 import SwiftUI
 
-struct Expense: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+// MARK: Expense Model and Sample Data
+struct Expense: Identifiable {
+    var id = UUID().uuidString
+    var amountSpent: String
+    var product: String
+    var productIcon: String
+    var spendType: String
 }
 
-struct Expense_Previews: PreviewProvider {
-    static var previews: some View {
-        Expense()
-    }
-}
+var expenses: [Expense] = [
+    Expense(amountSpent: "$128", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$18", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$10", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$28", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$9", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$100", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$55", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$348", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+    Expense(amountSpent: "$99", product: "Amazon", productIcon: "Amazon", spendType: "Groceries"),
+]
