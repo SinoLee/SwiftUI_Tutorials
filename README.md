@@ -1,6 +1,7 @@
 # SwiftUI_Tutorials
 
 History \
+2022.03.21 : ExpenseTracker (Animation) \
 2022.03.19 : TaskManagement \
 2022.03.17 : Sticky Header (Music Chart) \
 2022.03.16 : Finess \
