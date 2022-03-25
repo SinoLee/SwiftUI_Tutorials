@@ -1,6 +1,7 @@
 # SwiftUI_Tutorials
 
 History \
+2022.03.25 : Cloud Firestore sample \
 2022.03.25 : Video Seeker \
 2022.03.24 : Cubic Transition \
 2022.03.24 : Music Album (Animation) \
