@@ -30,7 +30,7 @@ struct Recipe: Identifiable {
     let ingredients: String
     let directions: String
     let category: Category.RawValue
-    let detePublished: String
+    let datePublished: String
     let url: String
 }
 
@@ -62,7 +62,7 @@ extension Recipe {
                5.To serve, place soup in individual bowls, drizzle with cashew cream, and garnish with pomegranate seeds and parsley.
                """,
                category: "Soup",
-               detePublished: "2019-11-11",
+               datePublished: "2019-11-11",
                url: "https://www.forksoverknives.com/recipes/vegan-soups-stews/creamy-carrot-soup/"),
         // 1
         Recipe(name: "Kale, Apple, and Quinoa Salad",
@@ -92,7 +92,7 @@ extension Recipe {
                4.In a large bowl combine kale, quinoa, apple, green onions, and roasted squash. Add dressing; toss to coat. Season with salt and pepper. Top with pumpkin seeds.
                """,
                category: "Salad",
-               detePublished: "2019-10-22",
+               datePublished: "2019-10-22",
                url: "https://www.forksoverknives.com/recipes/vegan-salads-sides/kale-apple-and-quinoa-salad/"),
         // 2
         Recipe(name: "Kale Bruschetta",
@@ -115,7 +115,7 @@ extension Recipe {
                3.Spread a tablespoon of the Cannellini Bean Sauce on the toasted bread, then cover with a layer of kale and top with a scattering of grape tomatoes. Drizzle generously with the balsamic glaze, and grab one for yourself before they all disappear.
                """,
                category: "Appetizer",
-               detePublished: "2015-06.28",
+               datePublished: "2015-06.28",
                url: "https://www.forksoverknives.com/recipes/vegan-snacks-appetizers/kale-bruschetta/"),
         // 3
         Recipe(name: "Vegetable Potpie",
@@ -146,7 +146,7 @@ extension Recipe {
                3.On a lightly floured surface, roll Homemade Oil-Free Pizza Dough into a circle or oval slightly larger than the dish. Cut several slits in dough; place on filling and seal. Brush with milk. Bake 15 minutes or until crust is browned and filling is bubbly.
                """,
                category: "Main",
-               detePublished: "2019-11-05",
+               datePublished: "2019-11-05",
                url: "https://www.forksoverknives.com/recipes/vegan-baked-stuffed/vegetable-pot-pie/"),
         // 4
         Recipe(name: "Red Lentil Loaf with Smoky Tomato Sauce Recipe",
@@ -178,7 +178,7 @@ extension Recipe {
                4.Spoon ¾ cup of the sauce over loaf. Bake 30 to 40 minutes or until sauce looks dark and dry. Cool on a wire rack 15 minutes. Slice loaf and serve with the remaining sauce.
                """,
                category: "Main",
-               detePublished: "2019.03.19",
+               datePublished: "2019.03.19",
                url: "https://www.forksoverknives.com/recipes/vegan-baked-stuffed/red-lentil-loaf-recipe-smoky-tomato-sauce/"),
         // 5
         Recipe(name: "Roasted Root Vegetable Medley",
@@ -213,7 +213,7 @@ extension Recipe {
                4.Season with salt and pepper. Sprinkle with chopped reserved fennel fronds. Serve warm.
                """,
                category: "Side",
-               detePublished: "2021-10-05",
+               datePublished: "2021-10-05",
                url: "https://www.forksoverknives.com/recipes/vegan-salads-sides/roasted-root-vegetable-medley/"),
         // 6
         Recipe(name: "Raspberry Truffle Brownies",
@@ -246,7 +246,7 @@ extension Recipe {
                Note: The brownies are still very gooey after the baking time is complete, but don’t worry—that’s what you want with brownies! Gooey out of the oven means that they will be nice and fudgy when they cool. Allow them to cool completely and chill in the fridge for a few hours for best results.
                """,
                category: "Dessert",
-               detePublished: "2014-02-10",
+               datePublished: "2014-02-10",
                url: "https://www.forksoverknives.com/recipes/vegan-desserts/raspberry-truffle-brownies/"),
     ]
 }
