@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		581B5FCA287927DE00433DCB /* NavigationSearchBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FC9287927DE00433DCB /* NavigationSearchBarApp.swift */; };
+		581B5FCC287927DE00433DCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FCB287927DE00433DCB /* ContentView.swift */; };
+		581B5FCE287927DF00433DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581B5FCD287927DF00433DCB /* Assets.xcassets */; };
+		581B5FD1287927DF00433DCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581B5FD0287927DF00433DCB /* Preview Assets.xcassets */; };
+		581B5FDB287927DF00433DCB /* NavigationSearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FDA287927DF00433DCB /* NavigationSearchBarTests.swift */; };
+		581B5FE5287927DF00433DCB /* NavigationSearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FE4287927DF00433DCB /* NavigationSearchBarUITests.swift */; };
+		581B5FE7287927DF00433DCB /* NavigationSearchBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FE6287927DF00433DCB /* NavigationSearchBarUITestsLaunchTests.swift */; };
+		581B5FF62879280C00433DCB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FF52879280C00433DCB /* Home.swift */; };
+		581B5FF8287928C400433DCB /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FF7287928C400433DCB /* AppItem.swift */; };
+		581B5FFA28792B4700433DCB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FF928792B4700433DCB /* CardView.swift */; };
+		581B5FFC287931BD00433DCB /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B5FFB287931BD00433DCB /* CustomNavigationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		581B5FD7287927DF00433DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581B5FBE287927DE00433DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581B5FC5287927DE00433DCB;
+			remoteInfo = NavigationSearchBar;
+		};
+		581B5FE1287927DF00433DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581B5FBE287927DE00433DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581B5FC5287927DE00433DCB;
+			remoteInfo = NavigationSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		581B5FC6287927DE00433DCB /* NavigationSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581B5FC9287927DE00433DCB /* NavigationSearchBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchBarApp.swift; sourceTree = "<group>"; };
+		581B5FCB287927DE00433DCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		581B5FCD287927DF00433DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		581B5FD0287927DF00433DCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		581B5FD6287927DF00433DCB /* NavigationSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581B5FDA287927DF00433DCB /* NavigationSearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchBarTests.swift; sourceTree = "<group>"; };
+		581B5FE0287927DF00433DCB /* NavigationSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581B5FE4287927DF00433DCB /* NavigationSearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchBarUITests.swift; sourceTree = "<group>"; };
+		581B5FE6287927DF00433DCB /* NavigationSearchBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		581B5FF52879280C00433DCB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		581B5FF7287928C400433DCB /* AppItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		581B5FF928792B4700433DCB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		581B5FFB287931BD00433DCB /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581B5FC3287927DE00433DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581B5FD3287927DF00433DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581B5FDD287927DF00433DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581B5FBD287927DE00433DCB = {
+			isa = PBXGroup;
+			children = (
+				581B5FC8287927DE00433DCB /* NavigationSearchBar */,
+				581B5FD9287927DF00433DCB /* NavigationSearchBarTests */,
+				581B5FE3287927DF00433DCB /* NavigationSearchBarUITests */,
+				581B5FC7287927DE00433DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		581B5FC7287927DE00433DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581B5FC6287927DE00433DCB /* NavigationSearchBar.app */,
+				581B5FD6287927DF00433DCB /* NavigationSearchBarTests.xctest */,
+				581B5FE0287927DF00433DCB /* NavigationSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581B5FC8287927DE00433DCB /* NavigationSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				581B5FF4287927FF00433DCB /* Model */,
+				581B5FF3287927F600433DCB /* View */,
+				581B5FC9287927DE00433DCB /* NavigationSearchBarApp.swift */,
+				581B5FCB287927DE00433DCB /* ContentView.swift */,
+				581B5FCD287927DF00433DCB /* Assets.xcassets */,
+				581B5FCF287927DF00433DCB /* Preview Content */,
+			);
+			path = NavigationSearchBar;
+			sourceTree = "<group>";
+		};
+		581B5FCF287927DF00433DCB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				581B5FD0287927DF00433DCB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		581B5FD9287927DF00433DCB /* NavigationSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				581B5FDA287927DF00433DCB /* NavigationSearchBarTests.swift */,
+			);
+			path = NavigationSearchBarTests;
+			sourceTree = "<group>";
+		};
+		581B5FE3287927DF00433DCB /* NavigationSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				581B5FE4287927DF00433DCB /* NavigationSearchBarUITests.swift */,
+				581B5FE6287927DF00433DCB /* NavigationSearchBarUITestsLaunchTests.swift */,
+			);
+			path = NavigationSearchBarUITests;
+			sourceTree = "<group>";
+		};
+		581B5FF3287927F600433DCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				581B5FF52879280C00433DCB /* Home.swift */,
+				581B5FF928792B4700433DCB /* CardView.swift */,
+				581B5FFB287931BD00433DCB /* CustomNavigationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		581B5FF4287927FF00433DCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				581B5FF7287928C400433DCB /* AppItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581B5FC5287927DE00433DCB /* NavigationSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581B5FEA287927DF00433DCB /* Build configuration list for PBXNativeTarget "NavigationSearchBar" */;
+			buildPhases = (
+				581B5FC2287927DE00433DCB /* Sources */,
+				581B5FC3287927DE00433DCB /* Frameworks */,
+				581B5FC4287927DE00433DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationSearchBar;
+			productName = NavigationSearchBar;
+			productReference = 581B5FC6287927DE00433DCB /* NavigationSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		581B5FD5287927DF00433DCB /* NavigationSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581B5FED287927DF00433DCB /* Build configuration list for PBXNativeTarget "NavigationSearchBarTests" */;
+			buildPhases = (
+				581B5FD2287927DF00433DCB /* Sources */,
+				581B5FD3287927DF00433DCB /* Frameworks */,
+				581B5FD4287927DF00433DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581B5FD8287927DF00433DCB /* PBXTargetDependency */,
+			);
+			name = NavigationSearchBarTests;
+			productName = NavigationSearchBarTests;
+			productReference = 581B5FD6287927DF00433DCB /* NavigationSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		581B5FDF287927DF00433DCB /* NavigationSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581B5FF0287927DF00433DCB /* Build configuration list for PBXNativeTarget "NavigationSearchBarUITests" */;
+			buildPhases = (
+				581B5FDC287927DF00433DCB /* Sources */,
+				581B5FDD287927DF00433DCB /* Frameworks */,
+				581B5FDE287927DF00433DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581B5FE2287927DF00433DCB /* PBXTargetDependency */,
+			);
+			name = NavigationSearchBarUITests;
+			productName = NavigationSearchBarUITests;
+			productReference = 581B5FE0287927DF00433DCB /* NavigationSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581B5FBE287927DE00433DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					581B5FC5287927DE00433DCB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					581B5FD5287927DF00433DCB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 581B5FC5287927DE00433DCB;
+					};
+					581B5FDF287927DF00433DCB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 581B5FC5287927DE00433DCB;
+					};
+				};
+			};
+			buildConfigurationList = 581B5FC1287927DE00433DCB /* Build configuration list for PBXProject "NavigationSearchBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581B5FBD287927DE00433DCB;
+			productRefGroup = 581B5FC7287927DE00433DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581B5FC5287927DE00433DCB /* NavigationSearchBar */,
+				581B5FD5287927DF00433DCB /* NavigationSearchBarTests */,
+				581B5FDF287927DF00433DCB /* NavigationSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581B5FC4287927DE00433DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581B5FD1287927DF00433DCB /* Preview Assets.xcassets in Resources */,
+				581B5FCE287927DF00433DCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581B5FD4287927DF00433DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581B5FDE287927DF00433DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581B5FC2287927DE00433DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581B5FF8287928C400433DCB /* AppItem.swift in Sources */,
+				581B5FCC287927DE00433DCB /* ContentView.swift in Sources */,
+				581B5FF62879280C00433DCB /* Home.swift in Sources */,
+				581B5FFC287931BD00433DCB /* CustomNavigationView.swift in Sources */,
+				581B5FCA287927DE00433DCB /* NavigationSearchBarApp.swift in Sources */,
+				581B5FFA28792B4700433DCB /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581B5FD2287927DF00433DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581B5FDB287927DF00433DCB /* NavigationSearchBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581B5FDC287927DF00433DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581B5FE7287927DF00433DCB /* NavigationSearchBarUITestsLaunchTests.swift in Sources */,
+				581B5FE5287927DF00433DCB /* NavigationSearchBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		581B5FD8287927DF00433DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581B5FC5287927DE00433DCB /* NavigationSearchBar */;
+			targetProxy = 581B5FD7287927DF00433DCB /* PBXContainerItemProxy */;
+		};
+		581B5FE2287927DF00433DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581B5FC5287927DE00433DCB /* NavigationSearchBar */;
+			targetProxy = 581B5FE1287927DF00433DCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		581B5FE8287927DF00433DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		581B5FE9287927DF00433DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		581B5FEB287927DF00433DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationSearchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RG233849;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.NavigationSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		581B5FEC287927DF00433DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationSearchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RG233849;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.NavigationSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		581B5FEE287927DF00433DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.NavigationSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationSearchBar.app/NavigationSearchBar";
+			};
+			name = Debug;
+		};
+		581B5FEF287927DF00433DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.NavigationSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationSearchBar.app/NavigationSearchBar";
+			};
+			name = Release;
+		};
+		581B5FF1287927DF00433DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.NavigationSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationSearchBar;
+			};
+			name = Debug;
+		};
+		581B5FF2287927DF00433DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.NavigationSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationSearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581B5FC1287927DE00433DCB /* Build configuration list for PBXProject "NavigationSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581B5FE8287927DF00433DCB /* Debug */,
+				581B5FE9287927DF00433DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581B5FEA287927DF00433DCB /* Build configuration list for PBXNativeTarget "NavigationSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581B5FEB287927DF00433DCB /* Debug */,
+				581B5FEC287927DF00433DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581B5FED287927DF00433DCB /* Build configuration list for PBXNativeTarget "NavigationSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581B5FEE287927DF00433DCB /* Debug */,
+				581B5FEF287927DF00433DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581B5FF0287927DF00433DCB /* Build configuration list for PBXNativeTarget "NavigationSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581B5FF1287927DF00433DCB /* Debug */,
+				581B5FF2287927DF00433DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581B5FBE287927DE00433DCB /* Project object */;
+}
