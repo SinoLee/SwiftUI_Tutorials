@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5874297628DA54A40092533B /* MorphingAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874297528DA54A40092533B /* MorphingAnimationApp.swift */; };
+		5874297828DA54A40092533B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874297728DA54A40092533B /* ContentView.swift */; };
+		5874297A28DA54A50092533B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5874297928DA54A50092533B /* Assets.xcassets */; };
+		5874297D28DA54A50092533B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5874297C28DA54A50092533B /* Preview Assets.xcassets */; };
+		5874298728DA54A50092533B /* MorphingAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874298628DA54A50092533B /* MorphingAnimationTests.swift */; };
+		5874299128DA54A50092533B /* MorphingAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874299028DA54A50092533B /* MorphingAnimationUITests.swift */; };
+		5874299328DA54A50092533B /* MorphingAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874299228DA54A50092533B /* MorphingAnimationUITestsLaunchTests.swift */; };
+		587429A128DA54E90092533B /* MorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587429A028DA54E90092533B /* MorphingView.swift */; };
+		587429A428DA57500092533B /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587429A328DA57500092533B /* CustomShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5874298328DA54A50092533B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5874296A28DA54A40092533B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5874297128DA54A40092533B;
+			remoteInfo = MorphingAnimation;
+		};
+		5874298D28DA54A50092533B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5874296A28DA54A40092533B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5874297128DA54A40092533B;
+			remoteInfo = MorphingAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5874297228DA54A40092533B /* MorphingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorphingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874297528DA54A40092533B /* MorphingAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimationApp.swift; sourceTree = "<group>"; };
+		5874297728DA54A40092533B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5874297928DA54A50092533B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5874297C28DA54A50092533B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5874298228DA54A50092533B /* MorphingAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorphingAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874298628DA54A50092533B /* MorphingAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimationTests.swift; sourceTree = "<group>"; };
+		5874298C28DA54A50092533B /* MorphingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorphingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874299028DA54A50092533B /* MorphingAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimationUITests.swift; sourceTree = "<group>"; };
+		5874299228DA54A50092533B /* MorphingAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		587429A028DA54E90092533B /* MorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingView.swift; sourceTree = "<group>"; };
+		587429A328DA57500092533B /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5874296F28DA54A40092533B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874297F28DA54A50092533B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874298928DA54A50092533B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5874296928DA54A40092533B = {
+			isa = PBXGroup;
+			children = (
+				5874297428DA54A40092533B /* MorphingAnimation */,
+				5874298528DA54A50092533B /* MorphingAnimationTests */,
+				5874298F28DA54A50092533B /* MorphingAnimationUITests */,
+				5874297328DA54A40092533B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5874297328DA54A40092533B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5874297228DA54A40092533B /* MorphingAnimation.app */,
+				5874298228DA54A50092533B /* MorphingAnimationTests.xctest */,
+				5874298C28DA54A50092533B /* MorphingAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5874297428DA54A40092533B /* MorphingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				587429A228DA573B0092533B /* Model */,
+				5874299F28DA54D40092533B /* View */,
+				5874297528DA54A40092533B /* MorphingAnimationApp.swift */,
+				5874297728DA54A40092533B /* ContentView.swift */,
+				5874297928DA54A50092533B /* Assets.xcassets */,
+				5874297B28DA54A50092533B /* Preview Content */,
+			);
+			path = MorphingAnimation;
+			sourceTree = "<group>";
+		};
+		5874297B28DA54A50092533B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5874297C28DA54A50092533B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5874298528DA54A50092533B /* MorphingAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5874298628DA54A50092533B /* MorphingAnimationTests.swift */,
+			);
+			path = MorphingAnimationTests;
+			sourceTree = "<group>";
+		};
+		5874298F28DA54A50092533B /* MorphingAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5874299028DA54A50092533B /* MorphingAnimationUITests.swift */,
+				5874299228DA54A50092533B /* MorphingAnimationUITestsLaunchTests.swift */,
+			);
+			path = MorphingAnimationUITests;
+			sourceTree = "<group>";
+		};
+		5874299F28DA54D40092533B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				587429A028DA54E90092533B /* MorphingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		587429A228DA573B0092533B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				587429A328DA57500092533B /* CustomShape.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5874297128DA54A40092533B /* MorphingAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5874299628DA54A50092533B /* Build configuration list for PBXNativeTarget "MorphingAnimation" */;
+			buildPhases = (
+				5874296E28DA54A40092533B /* Sources */,
+				5874296F28DA54A40092533B /* Frameworks */,
+				5874297028DA54A40092533B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorphingAnimation;
+			productName = MorphingAnimation;
+			productReference = 5874297228DA54A40092533B /* MorphingAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5874298128DA54A50092533B /* MorphingAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5874299928DA54A50092533B /* Build configuration list for PBXNativeTarget "MorphingAnimationTests" */;
+			buildPhases = (
+				5874297E28DA54A50092533B /* Sources */,
+				5874297F28DA54A50092533B /* Frameworks */,
+				5874298028DA54A50092533B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5874298428DA54A50092533B /* PBXTargetDependency */,
+			);
+			name = MorphingAnimationTests;
+			productName = MorphingAnimationTests;
+			productReference = 5874298228DA54A50092533B /* MorphingAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5874298B28DA54A50092533B /* MorphingAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5874299C28DA54A50092533B /* Build configuration list for PBXNativeTarget "MorphingAnimationUITests" */;
+			buildPhases = (
+				5874298828DA54A50092533B /* Sources */,
+				5874298928DA54A50092533B /* Frameworks */,
+				5874298A28DA54A50092533B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5874298E28DA54A50092533B /* PBXTargetDependency */,
+			);
+			name = MorphingAnimationUITests;
+			productName = MorphingAnimationUITests;
+			productReference = 5874298C28DA54A50092533B /* MorphingAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5874296A28DA54A40092533B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5874297128DA54A40092533B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					5874298128DA54A50092533B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5874297128DA54A40092533B;
+					};
+					5874298B28DA54A50092533B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5874297128DA54A40092533B;
+					};
+				};
+			};
+			buildConfigurationList = 5874296D28DA54A40092533B /* Build configuration list for PBXProject "MorphingAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5874296928DA54A40092533B;
+			productRefGroup = 5874297328DA54A40092533B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5874297128DA54A40092533B /* MorphingAnimation */,
+				5874298128DA54A50092533B /* MorphingAnimationTests */,
+				5874298B28DA54A50092533B /* MorphingAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5874297028DA54A40092533B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5874297D28DA54A50092533B /* Preview Assets.xcassets in Resources */,
+				5874297A28DA54A50092533B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874298028DA54A50092533B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874298A28DA54A50092533B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5874296E28DA54A40092533B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587429A428DA57500092533B /* CustomShape.swift in Sources */,
+				5874297828DA54A40092533B /* ContentView.swift in Sources */,
+				587429A128DA54E90092533B /* MorphingView.swift in Sources */,
+				5874297628DA54A40092533B /* MorphingAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874297E28DA54A50092533B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5874298728DA54A50092533B /* MorphingAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874298828DA54A50092533B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5874299128DA54A50092533B /* MorphingAnimationUITests.swift in Sources */,
+				5874299328DA54A50092533B /* MorphingAnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5874298428DA54A50092533B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5874297128DA54A40092533B /* MorphingAnimation */;
+			targetProxy = 5874298328DA54A50092533B /* PBXContainerItemProxy */;
+		};
+		5874298E28DA54A50092533B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5874297128DA54A40092533B /* MorphingAnimation */;
+			targetProxy = 5874298D28DA54A50092533B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5874299428DA54A50092533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5874299528DA54A50092533B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5874299728DA54A50092533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MorphingAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RG233849;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.MorphingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5874299828DA54A50092533B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MorphingAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RG233849;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.MorphingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5874299A28DA54A50092533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.MorphingAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorphingAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MorphingAnimation";
+			};
+			name = Debug;
+		};
+		5874299B28DA54A50092533B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.MorphingAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorphingAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MorphingAnimation";
+			};
+			name = Release;
+		};
+		5874299D28DA54A50092533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.MorphingAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MorphingAnimation;
+			};
+			name = Debug;
+		};
+		5874299E28DA54A50092533B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RG233849;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinoLab.MorphingAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MorphingAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5874296D28DA54A40092533B /* Build configuration list for PBXProject "MorphingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874299428DA54A50092533B /* Debug */,
+				5874299528DA54A50092533B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5874299628DA54A50092533B /* Build configuration list for PBXNativeTarget "MorphingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874299728DA54A50092533B /* Debug */,
+				5874299828DA54A50092533B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5874299928DA54A50092533B /* Build configuration list for PBXNativeTarget "MorphingAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874299A28DA54A50092533B /* Debug */,
+				5874299B28DA54A50092533B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5874299C28DA54A50092533B /* Build configuration list for PBXNativeTarget "MorphingAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874299D28DA54A50092533B /* Debug */,
+				5874299E28DA54A50092533B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5874296A28DA54A40092533B /* Project object */;
+}
