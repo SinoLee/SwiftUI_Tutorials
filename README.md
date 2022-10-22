@@ -1,6 +1,7 @@
 # SwiftUI_Tutorials
 
 History \
+2022.10.22 : Intro Animation \
 2022.09.25 : Dynamic ScrollView \
 2022.09.25 : Morphing animation \
 2022.08.31 : Login (Google,Apple,SMS) Tutorial \
