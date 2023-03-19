@@ -1,6 +1,7 @@
 # SwiftUI_Tutorials
 
 History \
+2023.03.19 : Shimmer Effect   
 2023.03.13 : CoreData to JSON, JSON to CoreData  
 2023.03.01 : Drop Down Picker \
 2022.10.22 : Intro Animation \
